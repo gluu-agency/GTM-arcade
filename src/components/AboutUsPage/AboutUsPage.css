@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Starcruiser;
+  src: url("../../assets/Fonts/starcruiser.otf");
+}
+@font-face {
+  font-family: D-DIN;
+  src: url("../../assets/Fonts/D-DIN.otf");
+}
+@font-face {
+  font-family: DIN;
+  src: url("../../assets/Fonts/DIN.ttf");
+}
+
+.aboutus-container {
+  background-image: url("../../assets/aboutus_page_bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.aboutpage-para {
+  .aboutus-header {
+    font-size: 1.5rem;
+    font-family: D-DIN;
+    font-weight: 700;
+    color: #FFFF00;
+  }
+  .aboutuspara{
+    font-size: 1.25rem;
+    font-family: DIN;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.613rem;
+  }
+}

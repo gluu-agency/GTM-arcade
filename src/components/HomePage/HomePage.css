@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Starcruiser;
+  src: url("../../assets/Fonts/starcruiser.otf");
+}
+@font-face {
+  font-family: D-DIN;
+  src: url("../../assets/Fonts/D-DIN.otf");
+}
+
+.main-container {
+  background-image: url("../../assets/main-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  .text {
+    font-family: Starcruiser;
+  }
+}
+
+.connect-button {
+  background-color: #000000;
+  width: 13.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
+  font-size: 1.25rem;
+  font-family: D-DIN;
+  font-weight: 700;
+  .circle {
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffff00;
+    border-radius: 50%;
+  }
+  .green-circle{
+    width: 1rem;
+    height: 1rem;
+    background-color: #4DFF49;
+    border-radius: 50%;
+  }
+}
+
+
+.home-page .play-now {
+  background-color: #ffff00;
+  width: 15rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  clip-path: polygon(85% 0, 100% 40%, 100% 100%, 15% 100%, 0 65%, 0 0);
+  font-weight: 700;
+  font-family: D-DIN;
+
+}
+.home-page .buy-gtm {
+  background-color: #000000;
+  width: 15rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  clip-path: polygon(85% 0, 100% 40%, 100% 100%, 15% 100%, 0 65%, 0 0);
+  font-weight: 700;
+  font-family: D-DIN;
+  color: #ffff00;
+  box-shadow: 0 0 0 1rem #ffff00;
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Starcruiser;
+  src: url("../../assets/Fonts/starcruiser.otf");
+}
+@font-face {
+  font-family: D-DIN;
+  src: url("../../assets/Fonts/D-DIN.otf");
+}
+@font-face {
+  font-family: DIN;
+  src: url("../../assets/Fonts/DIN.ttf");
+}
+
+.game-container{
+  background: url("../../assets/game_page_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.game-page-header-text {
+  font-family: Starcruiser;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffff00;
+}
+.game-page-para-text {
+  font-family: DIN;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  line-height: 1.613rem;
+}
+

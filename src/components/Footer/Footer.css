@@ -1,0 +1,19 @@
+.footer-connect-button {
+  background-color: #000000;
+  width: 12.5rem;
+  height: 3.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 12% 100%);
+  font-size: 1.25rem;
+  font-family: D-DIN;
+  font-weight: 700;
+  .circle {
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffff00;
+    border-radius: 50%;
+  }
+}

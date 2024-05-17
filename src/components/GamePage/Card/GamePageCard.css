@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Starcruiser;
+  src: url("../../../assets/Fonts/starcruiser.otf");
+}
+@font-face {
+  font-family: D-DIN;
+  src: url("../../../assets/Fonts/D-DIN.otf");
+}
+@font-face {
+  font-family: DIN;
+  src: url("../../../assets/Fonts/DIN.ttf");
+}
+
+.game-page-card {
+  background-image: url("../../../assets/gamepage_card.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 17.5rem;
+  height: 27.25rem;
+}
+
+.game-page-card-name {
+  font-family: D-DIN;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.game-card-btn {
+  background-color: #ffff00;
+  width: 8.75rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  clip-path: polygon(85% 0, 100% 40%, 100% 100%, 15% 100%, 0 65%, 0 0);
+  font-weight: 700;
+  font-family: D-DIN;
+}
+
+.game-card-notification{
+  font-family: DIN;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

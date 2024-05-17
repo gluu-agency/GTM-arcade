@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Starcruiser;
+  src: url("../../assets/Fonts/starcruiser.otf");
+}
+@font-face {
+  font-family: D-DIN;
+  src: url("../../assets/Fonts/D-DIN.otf");
+}
+@font-face {
+  font-family: DIN;
+  src: url("../../assets/Fonts/DIN.ttf");
+}
+
+.leaderboard-header-body {
+  background-image: url("../../assets/leaderboard_bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leaderboard-header-heading {
+  font-size: 2.5rem;
+  font-family: Starcruiser;
+  font-weight: 400;
+  color: #ffffff;
+}
+.leaderboard-header-text {
+  font-family: DIN;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.leaderboard-button {
+  background-image: url("../../assets/leaderboard_gtm_button.svg");
+  background-size: cover;
+  width: 9.5rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gtm-btn {
+  background-color: #ffff00;
+  width: 9.5rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  clip-path: polygon(85% 0, 100% 40%, 100% 100%, 15% 100%, 0 65%, 0 0);
+  font-weight: 700;
+  font-family: D-DIN;
+}
+.gtm-btn-active {
+  border: 1px solid #FFFF00;
+  width: 9.5rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  clip-path: polygon(85% 0, 100% 40%, 100% 100%, 15% 100%, 0 65%, 0 0);
+  font-weight: 700;
+  color: white;
+  font-family: D-DIN;
+}
+
+.leaderboard-body-head {
+  font-family: D-DIN;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.leaderboard-body-para {
+  font-family: DIN;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.leaderboard-table-body {
+  font-size: 1.25rem;
+  font-family: DIN;
+  font-weight: 500;
+}
+
+.border-gradient {
+  border-width: 1px;
+  border-style: solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(41, 46, 51, 0) 0%,
+    #7a8a99 100%
+  );
+}
